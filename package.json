@@ -1,0 +1,101 @@
+{
+  "name": "linkedin-copilot",
+  "version": "0.1.0",
+  "description": "LinkedIn outreach copilot for Testsigma BDRs/AEs — single connection requests and Sales Nav InMails with research, drafting, QA, and send.",
+  "main": "out/main/index.js",
+  "author": "Rob Gorham",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "start": "electron-vite preview",
+    "package": "electron-vite build && electron-builder --dir",
+    "dist": "electron-vite build && electron-builder",
+    "rebuild": "electron-rebuild -f -w better-sqlite3",
+    "postinstall": "electron-builder install-app-deps",
+    "typecheck": "tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.web.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke": "node scripts/smoke.mjs",
+    "format": "prettier --write 'src/**/*.{ts,tsx,css}' 'tests/**/*.ts'",
+    "lint": "eslint 'src/**/*.{ts,tsx}' 'tests/**/*.ts'",
+    "prepare": "husky || true"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "better-sqlite3": "^11.3.0",
+    "csv-parse": "^5.5.6",
+    "electron-log": "^5.2.0",
+    "playwright": "^1.48.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.1"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^3.7.0",
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "@vitest/ui": "^4.1.5",
+    "autoprefixer": "^10.4.20",
+    "electron": "^33.0.2",
+    "electron-builder": "^25.1.8",
+    "electron-vite": "^2.3.0",
+    "eslint": "^10.3.0",
+    "eslint-plugin-import": "^2.32.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "postcss": "^8.4.47",
+    "prettier": "^3.8.3",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.59.2",
+    "vite": "^5.4.10",
+    "vitest": "^4.1.5"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "tests/**/*.ts": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "src/**/*.css": [
+      "prettier --write"
+    ]
+  },
+  "build": {
+    "appId": "com.testsigma.linkedin-copilot",
+    "productName": "LinkedIn Copilot",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "out/**/*",
+      "data/seed/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "data/seed",
+        "to": "seed"
+      }
+    ],
+    "linux": {
+      "target": "AppImage"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  }
+}

@@ -1,0 +1,446 @@
+[
+  {
+    "name": "Sanjay Singh",
+    "company": "ServiceTitan",
+    "reason": "Hostile reply (2022 mabl era)",
+    "date": "2026-02-27"
+  },
+  {
+    "name": "Lance Silverman",
+    "company": "Batch 5B",
+    "reason": "Polite decline. Re-engage after 60+ days with new trigger.",
+    "date": "2026-03-01"
+  },
+  {
+    "name": "Clyde Faulkner",
+    "company": "CAMP Systems",
+    "reason": "mabl-era customer (2022). Had direct thread, knew Izzy. Skip permanently.",
+    "date": "2026-03-03"
+  },
+  {
+    "name": "Ashok Prasad",
+    "company": "ZL Technologies",
+    "reason": "mabl-era contact (Sep 2022). 2 messages sent, no reply. Skip permanently.",
+    "date": "2026-03-03"
+  },
+  {
+    "name": "Abe Blanco",
+    "company": "Kapitus",
+    "reason": "Replied \"not interested\" Mar 4. Batch 8 send. Skip permanently.",
+    "date": "2026-03-04"
+  },
+  {
+    "name": "Chuck Smith",
+    "company": "Aventiv Technologies",
+    "reason": "Double-send (B1 connection + B5B InMail). Rob decision Mar 4. Skip permanently.",
+    "date": "2026-03-04"
+  },
+  {
+    "name": "Jitesh Biswal",
+    "company": "JPMorgan Chase",
+    "reason": "Declined InMail Nov 4 (pre-campaign Oct 27 send). Skip permanently.",
+    "date": "2026-03-06"
+  },
+  {
+    "name": "Bret Wiener",
+    "company": "Farmers Insurance",
+    "reason": "Prior meeting held. Stage = Connected, had [Archived Sequence] from earlier era. Skip permanently — do not re-enroll.",
+    "date": "2026-03-14"
+  },
+  {
+    "name": "Peter Rimshnick",
+    "company": "Yext",
+    "reason": "Replied \"Unsubscribe\" to T2 email (Batch 8). Explicit opt-out. Skip permanently.",
+    "date": "2026-03-22"
+  },
+  {
+    "name": "Sourabh Roy",
+    "company": "Fidelity Investments (fmr.com)",
+    "reason": "Burned — placeholder text sent twice by accident in prior sessions. Task archived 2026-03-23. Skip permanently.",
+    "date": "2026-03-23"
+  },
+  {
+    "name": "Eric Pearson",
+    "company": "Fidelity Investments (ep@fidelity.com)",
+    "reason": "Burned — placeholder text sent via INC-016 (auto-send interval fired before injection succeeded). Skip permanently.",
+    "date": "2026-03-23"
+  },
+  {
+    "name": "Hrishikesh Aradhye",
+    "company": "Google / YouTube",
+    "reason": "Permission error — not contact owner, cannot send T2. Same issue as Padma Srikanth. Skip permanently.",
+    "date": "2026-03-23"
+  },
+  {
+    "name": "Julie Mullen",
+    "company": "Great American Insurance",
+    "reason": "Placeholder sent via INC-017 (Mar 24) + hard bounce on jmullen@gaig.com. Skip permanently.",
+    "date": "2026-03-25"
+  },
+  {
+    "name": "Lona Burtchett",
+    "company": "Jack Henry",
+    "reason": "Placeholder sent via INC-018 (Mar 25). Skip permanently.",
+    "date": "2026-03-25"
+  },
+  {
+    "name": "Altaf Shariff",
+    "company": "OneMain Financial",
+    "reason": "Placeholder T2 reply sent via INC-020 (Mar 25, 8:22 AM ET). Skip permanently.",
+    "date": "2026-03-25"
+  },
+  {
+    "name": "Abhay N",
+    "company": "Bluevine",
+    "reason": "Received 2 emails in 5 min (INC-021 Mar 25): correct T1 + Swapna CVS wrong-send. Skip permanently.",
+    "date": "2026-03-25"
+  },
+  {
+    "name": "Swapna Bitra",
+    "company": "CVS Health",
+    "reason": "INC-021 (Mar 25): T1 sent to wrong recipient (Abhay N at Bluevine). Skip permanently.",
+    "date": "2026-03-25"
+  },
+  {
+    "name": "Stephanie Reddick",
+    "company": "Radiology Partners",
+    "reason": "Wrong persona: physician/radiologist (Envision background), not software QA. \"Director QA\" = clinical reading quality, not IT. Apollo Contact ID: 69cfb634f8e7f900198c41c4. Skip permanently.",
+    "date": "2026-04-07"
+  },
+  {
+    "name": "Venkateshwarlu Gajjela",
+    "company": "Memorial Sloan Kettering",
+    "reason": "Wrong persona: Clinical/pharmaceutical QA (CAR-T cell therapy, GMP manufacturing, FACT/FDA compliance). Not software QA. Email: gajjelav@mskcc.org. Skip permanently.",
+    "date": "2026-04-07"
+  },
+  {
+    "name": "Brian Nysse",
+    "company": "Polaris Inc.",
+    "reason": "Wrong persona: Mechanical/hardware engineering (Sr EM Off-Road Vehicles, prior crane engineering at Manitowoc and XCMG). Not software. Email: brian.nysse@polaris.com. Skip permanently.",
+    "date": "2026-04-07"
+  },
+  {
+    "name": "Tracy Lynch",
+    "company": "Memorial Sloan Kettering",
+    "reason": "Wrong persona: Career background is retail store management; QA Manager title only since 2022. Likely ops/clinical QA, not software QA. Email: @mskcc.org. Skip permanently.",
+    "date": "2026-04-07"
+  },
+  {
+    "name": "Scott Ostroski",
+    "company": "Polaris Inc.",
+    "reason": "Wrong persona: 32-year career at Polaris, hardware/mechanical engineering background. Not software QA. Skip permanently.",
+    "date": "2026-04-07"
+  },
+  {
+    "name": "Dave Miller",
+    "company": "Johnson & Johnson MedTech",
+    "reason": "Explicit decline — replied \"Thanks, but no thanks\" to T2 (Mar 26). Email: dmille73@its.jnj.com. Skip permanently.",
+    "date": "2026-04-07"
+  },
+  {
+    "name": "Supriya Sarade",
+    "company": "Mastercard",
+    "reason": "Permission error — not contact owner (owner: Raghava Surya). Cannot send. Apollo ID: 66d1290c74db0602bae156ff. Skip permanently.",
+    "date": "2026-04-07"
+  },
+  {
+    "name": "Bogdan Minciu",
+    "company": "Celonis",
+    "reason": "Hard bounce — bogdan.minciu@celonis.de marked as invalid. Apollo ID: 694bf7bb542969000124ee86. Skip permanently.",
+    "date": "2026-04-08"
+  },
+  {
+    "name": "Matthew Lauprete",
+    "company": "Yahoo",
+    "reason": "Hard bounce — matthew.lauprete@yahooinc.com. T2 sent Apr 8. Skip permanently.",
+    "date": "2026-04-09"
+  },
+  {
+    "name": "Mohan J",
+    "company": "Datamatics",
+    "reason": "Hard bounce — mohan.j@digital.datamatics.com. T2 sent Apr 8. Skip permanently.",
+    "date": "2026-04-09"
+  },
+  {
+    "name": "Sam Reider",
+    "company": "Charlie Health",
+    "reason": "Hard bounce — sam.reider@charliehealth.com. T2 sent Apr 8. Skip permanently.",
+    "date": "2026-04-09"
+  },
+  {
+    "name": "Yvonne Stephen",
+    "company": "Blue Cross KC",
+    "reason": "Hard bounce — yvonne.stephen@bluekc.com. T2 sent Apr 8. Skip permanently.",
+    "date": "2026-04-09"
+  },
+  {
+    "name": "Ksenia Shchelkonogova",
+    "company": "Mastercard",
+    "reason": "Hard bounce — kshchelkonogova@mastercard.com. T1 sent Apr 6. Skip permanently.",
+    "date": "2026-04-09"
+  },
+  {
+    "name": "Harish Thimmapur",
+    "company": "Kemper",
+    "reason": "Hard bounce — hthimmapur@kemper.com. T1 bounced Mar 20, T2 sent Apr 9 (also bounced). Skip permanently.",
+    "date": "2026-04-09"
+  },
+  {
+    "name": "Jeb Watkins",
+    "company": "JPMorgan Chase",
+    "reason": "Hostile reply to LinkedIn connection request — called it \"AI bot spam.\" Skip permanently.",
+    "date": "2026-04-13"
+  },
+  {
+    "name": "Mahesh Tolapu",
+    "company": "Equiniti",
+    "reason": "Hard bounce — mahesh@equiniti.com (group.internal NDR). Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Craig Telling",
+    "company": "Equiniti",
+    "reason": "Hard bounce — craig@equiniti.com (group.internal NDR). Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Gordon Young",
+    "company": "Northern Trust",
+    "reason": "Hard bounce — gordon.young@ntrs.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Moiz Merchant",
+    "company": "Northern Trust",
+    "reason": "Hard bounce — moiz.merchant@ntrs.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Bipin Bhoite",
+    "company": "Mindbody",
+    "reason": "Hard bounce — bipin.bhoite@mindbodyonline.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Gita Mumbre",
+    "company": "Mastercard",
+    "reason": "Hard bounce — gita.mumbre@mastercard.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Leo Shen",
+    "company": "Manulife",
+    "reason": "Hard bounce — leo_shen@manulife.com (underscore format). Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Mohammad Emadi",
+    "company": "Broadcom",
+    "reason": "Hard bounce — mohammad.emadi@broadcom.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Steven Bell",
+    "company": "Blizzard",
+    "reason": "Hard bounce — steven.bell@blizzard.com (550 5.4.1 Access denied). Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Eric Wade",
+    "company": "Integrity Marketing",
+    "reason": "Hard bounce (message blocked) — eric.wade@integritymarketing.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Vidhyalakshmi",
+    "company": "Definity",
+    "reason": "Hard bounce — vidhyalakshmi@definity.ca (postmaster@economical.com NDR). Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Avani Vaidya",
+    "company": "CVS Health",
+    "reason": "Hard bounce — avani.vaidya@cvshealth.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Youssef Medgar",
+    "company": "Alithya",
+    "reason": "Hard bounce — youssef.medgar@alithya.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Julie Brule",
+    "company": "Alithya",
+    "reason": "Hard bounce — julie.brule@alithya.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Poonam Patil",
+    "company": "Datamatics",
+    "reason": "Hard bounce (message blocked) — poonam.patil@datamatics.com. Apollo global bounce list. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Shilendra Sharma",
+    "company": "Datamatics",
+    "reason": "Hard bounce (message blocked) — shilendra.sharma@datamatics.com. Apollo global bounce list. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Tomer Weinberger",
+    "company": "Check Point",
+    "reason": "Hard bounce — tomerw@checkpoint.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Jesse Ybarra",
+    "company": "Check Point",
+    "reason": "Hard bounce — jessee@checkpoint.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Shlomo Yeret",
+    "company": "Check Point",
+    "reason": "Hard bounce — shlomoy@checkpoint.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Yogesh Garg",
+    "company": "Check Point",
+    "reason": "Hard bounce — yogeshg@checkpoint.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Brian Oppenheim",
+    "company": "Celonis",
+    "reason": "Hard bounce — brian.oppenheim@celonis.de. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Mehul Savalia",
+    "company": "Citizens Bank",
+    "reason": "Hard bounce — mehul@citizensbank.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Rakesh Rallapalli",
+    "company": "Commvault",
+    "reason": "Hard bounce — rrallapalli@commvault.com (both T1 + T2 bounced). Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Sunkara Srinivas",
+    "company": "Commvault",
+    "reason": "Hard bounce — sunkara.srinivas@commvault.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Sheena Rakhecha",
+    "company": "Square",
+    "reason": "Hard bounce — sheenar@squareup.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Alan Spindel",
+    "company": "Epicor",
+    "reason": "Hard bounce — alan.spindel@epicor.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Padma Srinivasan",
+    "company": "Fidelity",
+    "reason": "Hard bounce — padma.srinivasan@fidelity.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Suvajit Chaudhury",
+    "company": "Fidelity",
+    "reason": "Hard bounce — suvajit.chaudhury@fidelity.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Brian Brennan",
+    "company": "RSM US",
+    "reason": "Hard bounce — brian.brennan@rsmus.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Philcy Morales",
+    "company": "RSM US",
+    "reason": "Hard bounce — philcy.morales@rsmus.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Ashwini Dumbe",
+    "company": "Kibo Commerce",
+    "reason": "Hard bounce — ashwini.dumbe@kibocommerce.com. Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Abhay N",
+    "company": "Replicon",
+    "reason": "Hard bounce — abhay.n@replicon.com (distinct from Abhay N at Bluevine, INC-021). Reconciliation backfill Apr 15. Skip permanently.",
+    "date": "2026-04-15"
+  },
+  {
+    "name": "Kevin \"KP\" Kirkpatrick",
+    "company": "Peraton",
+    "reason": "Persona mismatch — defense/DoD systems QA, NOT software product QA. 21 yrs USAF, 25-yr career with zero Selenium/Cypress/Playwright/SDET. Accepted LinkedIn connection + replied Apr 21 (Batch B, LI-Apr21-B row 10). Graceful exit DM sent Apr 22. kevin.kirkpatrick@peraton.com. Same pattern as Graeme Clifford / Sabrina Perry. Skip permanently.",
+    "date": "2026-04-22"
+  },
+  {
+    "name": "Davor Milosevic",
+    "company": "IQVIA",
+    "reason": "Persona mismatch — clinical/pharma QA at IQVIA (world's largest CRO, 89K employees, \"hospital & health care\"). 9-yr IQVIA tenure (Associate Director QA → QA Director). Prior: Pilgrim Quality Solutions (life sciences eQMS), Cryo-Cell (FDA-regulated biobank), Regulatory Specialist. Full career = FDA/GxP compliance track, zero software product QA. Accepted LinkedIn connection Apr 22 silent (Batch A, LI-Apr21 row 22). davor.milosevic@iqvia.com. Same pattern as Stephanie Reddick / Venkateshwarlu Gajjela / Tracy Lynch. Skip permanently.",
+    "date": "2026-04-22"
+  },
+  {
+    "name": "Tracy Suggs",
+    "company": "Ryder System",
+    "reason": "Persona mismatch — 22+ yr single-company tenure at logistics/trucking co, generic \"Manager Quality I\" title = ops/fleet quality, not software. Batch C persona audit v2 (Apr 22). Same pattern as Polaris hardware engineers. Skip permanently.",
+    "date": "2026-04-22"
+  },
+  {
+    "name": "Graeme Clifford",
+    "company": "Iridium Communications",
+    "reason": "Persona mismatch — \"Director, Engineering (Space Engineering)\" = satellite hardware/systems engineering, not software. 9+ yr in role. Same pattern as Kevin Kirkpatrick (defense systems). Batch C persona audit v2 (Apr 22). Skip permanently.",
+    "date": "2026-04-22"
+  },
+  {
+    "name": "Sabrina Perry",
+    "company": "EverBank",
+    "reason": "Persona mismatch — VP Quality Assurance at retail bank = internal audit / compliance / risk assurance, not software QA. Banks place IT-QA under CIO, not a VP-QA seat. Same pattern as Davor (compliance QA at financial-adjacent org). Batch C persona audit v2 (Apr 22). Skip permanently.",
+    "date": "2026-04-22"
+  },
+  {
+    "name": "Cheryl Stephens",
+    "company": "Peraton",
+    "reason": "Persona mismatch — same employer as Kevin Kirkpatrick (confirmed DNC Apr 22). 9-yr Peraton tenure, generic \"QA Manager\" title (no \"Software\" modifier), Norfolk VA (DoD/SITEC orbit). Pattern-match to defense/federal IT contractor mismatch. Batch C persona audit v2 (Apr 22). Skip permanently.",
+    "date": "2026-04-22"
+  },
+  {
+    "name": "Roxanne Helmer",
+    "company": "ManTech",
+    "reason": "Persona mismatch — ManTech = defense/federal IT services contractor (same category as Peraton). 17y tenure through Gryphon Technologies (defense systems) acquisition. \"Director of Engineering\" at defense-IT contractor with no \"Software\" in title = systems engineering. Batch C persona audit v2 (Apr 22). Skip permanently.",
+    "date": "2026-04-22"
+  },
+  {
+    "name": "Carlos Moran",
+    "company": "Iridium Communications",
+    "reason": "Persona mismatch — same employer as Graeme Clifford (Iridium satellite, primarily hardware/systems). \"QA Manager — Commercial Services\" is ambiguous (IoT/sat services OR service-delivery ops quality). 9-mo tenure. No software signal. Batch C persona audit v2 (Apr 22). Skip permanently.",
+    "date": "2026-04-22"
+  },
+  {
+    "name": "Luis Fernandes / \"Pedro dsf\"",
+    "company": "Infinera",
+    "reason": "Junk form fill — SF lead created Feb 23 2026 with fake first name \"Pedro\" + last name \"dsf\". Email lfernandes@infinera.com belongs to Luis Miguel Fernandes, Staff Software Development Engineer at Infinera (Sintra, Portugal) — non-QA persona, non-US, no software-QA signal. Apollo Contact ID 699c8189c8db810001e94d4f, SF Lead 00QOX00000hFwji2AC. Verified Apr 29 2026 via Apollo enrich + LinkedIn capture. Skip permanently.",
+    "date": "2026-04-29"
+  },
+  {
+    "name": "Christophe Brillant",
+    "company": "Harmonic (Rennes, France)",
+    "reason": "INC-030 — LinkedIn-side InMail block. Both send attempts in batch #13 failed identically (error popup + credit charged + no thread created). Profile is unusually thin (1 connection, 2 followers, no posts). 2 credits lost. Apollo ID 6748965bd33719000132871b. LinkedIn slug: christophe-brillant-a783a0262. Skip permanently — InMail not deliverable to this account state.",
+    "date": "2026-05-01"
+  }
+]

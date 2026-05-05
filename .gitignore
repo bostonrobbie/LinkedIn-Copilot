@@ -1,0 +1,25 @@
+node_modules/
+out/
+dist/
+build/
+.vite/
+.env
+.env.local
+*.log
+.DS_Store
+
+# App data (per-user, don't commit)
+data/userdata/
+data/db/*.sqlite
+data/db/*.sqlite-journal
+data/playwright-profile/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+
+# Build cache
+*.tsbuildinfo

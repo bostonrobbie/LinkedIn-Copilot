@@ -1,0 +1,8 @@
+node_modules
+out
+dist
+coverage
+.vite
+package-lock.json
+data/seed/master_sent_list.csv
+data/seed/tam.csv

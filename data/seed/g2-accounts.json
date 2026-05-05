@@ -1,0 +1,12 @@
+{
+  "source": "BDR/sequences/g2-intent/_ref-g2-intent-formula.md (lines 62-71)",
+  "note": "The 6 authorized non-TAM companies with confirmed G2 buying intent. New additions require Rob's explicit per-company written approval.",
+  "accounts": [
+    { "name": "Blizzard Entertainment", "domain": "blizzard.com" },
+    { "name": "Broadcom", "domain": "broadcom.com" },
+    { "name": "Comcast", "domain": "comcast.com" },
+    { "name": "NBCUniversal", "domain": "nbcuni.com" },
+    { "name": "Zurich Insurance", "domain": "zurich.com" },
+    { "name": "Mastercard", "domain": "mastercard.com" }
+  ]
+}
